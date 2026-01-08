@@ -12,6 +12,14 @@ $ towncrier create <PR-number>.<break|feat|fix>.md --content "Short description"
 
 <!-- towncrier release notes start -->
 
+## cylc-uiserver-1.8.2 (Released 2026-01-08)
+
+[Updated cylc-ui to 2.12.1](https://github.com/cylc/cylc-ui/blob/master/CHANGES.md)
+
+### 🔧 Fixes
+
+[#761](https://github.com/cylc/cylc-uiserver/pull/761) - Fixed a bug causing "unknown" status and delay to data appearing on workflow startup.
+
 ## cylc-uiserver-1.8.1 (Released 2025-11-27)
 
 [Updated cylc-ui to 2.11.0](https://github.com/cylc/cylc-ui/blob/master/CHANGES.md)
